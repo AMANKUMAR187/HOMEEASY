@@ -1,0 +1,43 @@
+.home {
+  position: relative;
+}
+
+.floating-buttons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 9999;
+}
+
+.floating-buttons button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.floating-buttons .btn1 {
+  background-color: #2563eb; /* Blue */
+}
+
+.floating-buttons .btn2 {
+  background-color: #dc2626; /* Red */
+}
+
+
+
+.home button:hover {
+  background: #068047;
+  color: #fff;
+  transition: all 0.3s;
+}
+@media(max-width: 1000px){
+    .home button{
+        right: 30px;
+    }
+}
