@@ -8,7 +8,7 @@ import Header from "../components/header"
 import Footer from "../layout/Footer"
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-import "../styles/Profile.css";
+import "../styles/profile.css";
 
 const Profile = () => {
   const { isAuthenticated } = useContext(Context);
