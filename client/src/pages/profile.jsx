@@ -28,7 +28,7 @@ const Profile = () => {
   const fetchUserHomes = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:4000/homeeasy/user/myhomes",
+        "https://homeeasy.onrender.com/homeeasy/user/myhomes",
         {
           withCredentials: true,
         }
@@ -43,7 +43,7 @@ const Profile = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:4000/homeeasy/delete-home/${id}`, {
+      await axios.delete(`https://homeeasy.onrender.com/homeeasy/delete-home/${id}`, {
         withCredentials: true,
       });
       toast.success("Deleted successfully");
