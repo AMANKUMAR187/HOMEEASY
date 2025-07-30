@@ -9,7 +9,7 @@ const AllHomes = () => {
   useEffect(() => {
     const fetchHomes = async () => {
       try {
-        const res = await axios.get("http://localhost:4000/homeeasy/fetch-home");
+        const res = await axios.get("https://homeeasy.onrender.com/homeeasy/fetch-home");
         setHomes(res.data);
         console.log(res.data);
       } catch (err) {
