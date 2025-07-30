@@ -19,7 +19,7 @@ const App = () => {
   useEffect(() => {
     const getUser = async () => {
       await axios
-        .get("http://localhost:4000/homeeasy/me", { withCredentials: true })
+        .get("https://homeeasy.onrender.com/homeeasy/me", { withCredentials: true })
         .then((res) => {
           setUser(res.data.user);
           localStorage.setItem("userEmail", res.data.user.email);
