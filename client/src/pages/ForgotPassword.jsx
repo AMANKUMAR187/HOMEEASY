@@ -14,7 +14,7 @@ const ForgotPassword = () => {
 
     await axios
       .post(
-        "http://localhost:4000/homeeasy/forget/password",
+        "https://homeeasy.onrender.com/homeeasy/forget/password",
         { email },
         {
           withCredentials: true,
