@@ -6,7 +6,7 @@ import Auth from "./pages/Auth";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 import OtpVerification from "./pages/OtpVerification";
-import Profile from "./pages/Profile"; // ✅ Import Profile Page
+import Profile from "./pages/profile"; // ✅ Import Profile Page
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
