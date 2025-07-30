@@ -17,7 +17,7 @@ const Home = () => {
 
   const logout = async () => {
     await axios
-      .get("http://localhost:4000/homeeasy/logout", {
+      .get("https://homeeasy.onrender.com/homeeasy/logout", {
         withCredentials: true,
       })
       .then((res) => {
