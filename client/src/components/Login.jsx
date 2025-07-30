@@ -17,7 +17,7 @@ const Login = () => {
   } = useForm();
   const handleLogin = async (data) => {
     await axios
-      .post("http://localhost:4000/homeeasy/login", data, {
+      .post("https://homeeasy.onrender.com/homeeasy/login", data, {
         withCredentials: true,
         headers: {
           "Content-Type": "application/json",
