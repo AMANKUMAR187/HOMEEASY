@@ -16,7 +16,7 @@ const Register = () => {
 
   const handleRegister = async (data) => {
     await axios
-      .post("http://localhost:4000/homeeasy/register", data, {
+      .post("https://homeeasy.onrender.com/homeeasy/register", data, {
         withCredentials: true,
         headers: { "Content-Type": "application/json" },
       })
