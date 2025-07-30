@@ -36,7 +36,7 @@ const OtpVerification = () => {
       phone,
     };
     await axios
-      .post("http://localhost:4000/homeeasy/otp-verification", data, {
+      .post("https://homeeasy.onrender.com/homeeasy/otp-verification", data, {
         withCredentials: true,
         headers: { "Content-Type": "application/json" },
       })
