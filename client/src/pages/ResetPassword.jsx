@@ -16,7 +16,7 @@ const ResetPassword = () => {
     e.preventDefault();
     await axios
       .post(
-        `http://localhost:4000/homeeasy/password/reset/${token}`,
+        `https://homeeasy.onrender.com/homeeasy/password/reset/${token}`,
         { password, confirmPassword },
         {
           withCredentials: true,
